@@ -1,4 +1,5 @@
 {
+  "homepage": "http://panugothrakesh.github.io/aurvedic-repo-63-",
   "name": "notus-react",
   "version": "1.1.0",
   "description": "Notus React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
@@ -32,6 +33,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
